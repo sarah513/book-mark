@@ -1,0 +1,9 @@
+.bg{
+    background-color: #eee;
+}
+.bg-grad{
+    background-image: linear-gradient(#eee,white);
+}
+#alert{
+    display: none;
+}

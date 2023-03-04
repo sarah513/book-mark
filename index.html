@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- header -->
+        <div class="border-bottom border-dark py-5 mb-3 ">
+            <h1 class="text-secondary fs-2 px-4">Bookmarker</h1>
+        </div>
+
+        <div class="text-center container bg p-5 mb-4">
+            <h2 class="mb-5">Bookmark your favorite sites</h2>
+            <div class="d-flex flex-column">
+                <label for="name" class="mb-2">Site Name</label>
+                <input type="text" id="name" placeholder="Bookmark Name" class="form-control">
+                <div class="alert alert-danger py-1 fw-bold" id="alert"></div>
+                <label for="url" class="mb-2 mt-3">Site URL</label>
+                <input type="text" id="url" placeholder="website URL" class="form-control mb-5">
+                <button class="btn btn-primary text-white" onclick="addMark()">submit</button>
+            </div>
+        </div>
+        <table class="w-100 mb-5">
+            <thead>
+                <tr>
+                    <th class="col-3 ">
+                    </th>
+                    <th class="col-9">
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+
+            </tbody>
+        </table>
+        <div class="border-top py-4 px-3">
+            © 2019 Bookmarker Inc.
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
